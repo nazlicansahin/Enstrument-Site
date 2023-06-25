@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9ECEF;
+}
+
+body {
+    background-color: #E9ECEF;
+    height: 100%;
+    overflow: auto;
+}
+
+.row {
+    margin: 5px;
+}
+
+header {
+    display: inline-block;
+    background-color: #343A40;
+    color: rgb(207, 44, 44);
+    padding: 10px;
+
+}
+
+nav {
+    display: inline-block;
+    background-color: #343A40;
+    padding: 10px;
+}
+
+.navbar,
+.navbar-brand,
+.navbar-nav,
+.nav-link {
+    background-color: #343A40;
+    padding: 10px;
+    font-size: 15px !important;
+
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #343A40;
+    margin-right: 10px !important;
+}
+
+
+/* Path: index.html */
