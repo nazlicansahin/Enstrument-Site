@@ -16,7 +16,7 @@ body {
     margin: 5px;
 }
 
-header {
+.header {
     display: inline-block;
     background-color: #343A40;
     color: rgb(207, 44, 44);
@@ -27,7 +27,6 @@ header {
 nav {
     display: inline-block;
     background-color: #343A40;
-    padding: 10px;
 }
 
 .navbar,
@@ -35,13 +34,12 @@ nav {
 .navbar-nav,
 .nav-link {
     background-color: #343A40;
-    padding: 10px;
+    padding: 10px !important;
     font-size: 15px !important;
 
 }
 
 a {
-    color: white !important;
     text-decoration: none !important;
     background-color: #343A40;
     margin-right: 10px !important;
@@ -49,3 +47,18 @@ a {
 
 
 /* Path: index.html */
+.jumbotron {
+    color: rgba(31, 30, 30, 0.72);
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #343A40 !important;
+    border-color: #343A40 !important;
+
+}
+
+.display-4 {
+    text-align: center !important;
+}
